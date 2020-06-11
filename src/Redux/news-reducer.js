@@ -1,4 +1,3 @@
-//const NEWS_ADD = 'NEWS_ADD'
 const UPDATE_NEW_NEWS_TEXT = 'UPDATE_NEW_NEWS_TEXT'
 const DELETE_NEWS = 'DELETE_NEWS'
 const UPDATE_NEWS = 'UPDATE_NEWS'
@@ -6,10 +5,10 @@ const UPDATE_ID = 'UPDATE_ID'
 
 const initialState = {
   NewsData: [
-    { id: 1, news: 'Новость', active: 1 },
-    { id: 2, news: 'Новость', active: 1 },
-    { id: 3, news: 'Новость', active: 1 },
-    { id: 4, news: 'Новость', active: 1 }
+    { id: 1, news: 'Новость1', active: 1 },
+    { id: 2, news: 'Новость2', active: 1 },
+    { id: 3, news: 'Новость3', active: 1 },
+    { id: 4, news: 'Новость4', active: 1 }
   ],
   newNewsText: "",
   selectedID: null

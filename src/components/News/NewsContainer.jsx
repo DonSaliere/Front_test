@@ -7,7 +7,8 @@ let AuthRedirectComponent = withAuthRedirect(News);
 
 const mapStateToProps = state => ({
   news: state.news.NewsData,
-  newNewsText: state.news.newNewsText
+  newNewsText: state.news.newNewsText,
+  selectedID: state.news.selectedID
 })
 
 const mapDispatchToProps = dispatch => {

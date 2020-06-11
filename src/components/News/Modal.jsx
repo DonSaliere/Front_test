@@ -57,7 +57,6 @@ const Example = (props) => {
                 </Modal.Footer>
             </Modal>
             
-
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
                     <Modal.Title>Новость</Modal.Title>
